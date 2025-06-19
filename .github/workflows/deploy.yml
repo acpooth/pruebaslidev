@@ -32,7 +32,10 @@ jobs:
         run: nci
 
       - name: Build
-        run: nr build --base /${{github.event.repository.name}}/
+        run: nr build --out ./dist/slides --base /${{github.event.repository.name}}/slides slides.md
+
+      - name: Build
+        run: nr build --out ./dist/slides2 --base /${{github.event.repository.name}}/slides2 slides2.md
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
