@@ -1,3 +1,10 @@
+# Slidev Example
+
+This example contains 2 presentations. Can GitHub pages manage 2 presentations?
+
+
+
+
 # Welcome to [Slidev](https://github.com/slidevjs/slidev)!
 
 To start the slide show:
